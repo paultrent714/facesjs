@@ -322,6 +322,7 @@ const updateStores = ({
   const { setFaceStore, setLastClickedSectionIndex, setLastSelectedFaceIndex } =
     stateStoreProps;
 
+  console.log("[facesjs debug] updateStores faceConfig:", faceConfig);
   setFaceStore(faceConfig);
   setLastClickedSectionIndex(sectionIndex);
   setLastSelectedFaceIndex(faceIndex);

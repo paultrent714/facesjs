@@ -110,14 +110,14 @@ export const MyFace = ({ face }) => {
 
 Props of the `Face` component:
 
-| Prop | Required | Type | Default | Description |
-| - | - | - | - | - |
-|`face` | Y | `FaceConfig` || Face object, output of `generate`. |
-|`overrides` || `Overrides` || Optional overrides object, as described above. |
-|`ignoreDisplayErrors` || `boolean` | `false` | If `true`, then any errors when internally running `display` will be suppressed. This is useful if you accept user-defined faces and you don't want errors from them to clog up your error logs. |
-|`lazy` || `boolean` | `false` | If `true`, then application of overrides and rendering of the face will be delayed until this component is actually visible (as determined by an intersection observer). |
-|`className` || `string` || If provided, will be put on the wrapper div. |
-|`style` || `CSSProperties` || If provided, will be put on the wrapper div. |
+| Prop                  | Required | Type            | Default | Description                                                                                                                                                                                      |
+| --------------------- | -------- | --------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `face`                | Y        | `FaceConfig`    |         | Face object, output of `generate`.                                                                                                                                                               |
+| `overrides`           |          | `Overrides`     |         | Optional overrides object, as described above.                                                                                                                                                   |
+| `ignoreDisplayErrors` |          | `boolean`       | `false` | If `true`, then any errors when internally running `display` will be suppressed. This is useful if you accept user-defined faces and you don't want errors from them to clog up your error logs. |
+| `lazy`                |          | `boolean`       | `false` | If `true`, then application of overrides and rendering of the face will be delayed until this component is actually visible (as determined by an intersection observer).                         |
+| `className`           |          | `string`        |         | If provided, will be put on the wrapper div.                                                                                                                                                     |
+| `style`               |          | `CSSProperties` |         | If provided, will be put on the wrapper div.                                                                                                                                                     |
 
 ## Exporting SVGs
 
@@ -193,14 +193,12 @@ If you want a brand new "class" of facial features (like facial hair, or earring
 If you find any of this confusing, feel free to reach out to me for help! I would love for someone to help me make better looking faces :)
 
 ## My Additions
+
 I plan to use this for some other management games I plan to complete
 
-So far,  I have added a few svgs.
+So far, I have added a few svgs.
 I also plan on making another feature for tattoos that will be included in the face editor and json.
 
 ## Credits
 
 [dumbmatter](https://github.com/dumbmatter) wrote most of the code, [TravisJB89](https://github.com/TravisJB89) made most of the graphics, [Lia Cui](https://liacui.carrd.co/) made most of the female graphics, [gurushida](https://github.com/gurushida) wrote the code to export faces as SVG strings, and [tomkennedy22](https://github.com/tomkennedy22) wrote most of the editor UI code.
-
-
-

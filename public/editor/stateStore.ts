@@ -13,6 +13,7 @@ import {
   jerseyColorOptions,
 } from "./defaultColors";
 import { FaceConfig } from "../../src/common";
+import { svgsIndex } from "../../src/svgs-index";
 
 const gallerySectionInfos: (Pick<
   GallerySectionConfig,
@@ -44,11 +45,12 @@ const gallerySectionInfos: (Pick<
         };
       }
     | {
-        selectionType: "svgs";
-        flip?: {
-          key: string;
-        };
-      }
+    selectionType: "svgs";
+    flip?: { key: string };
+    renderOptions?: {
+      valuesToRender: string[];
+    };
+  }
   ))[] = [
   {
     key: "body.color",
@@ -69,6 +71,14 @@ const gallerySectionInfos: (Pick<
         min: 0.8,
         max: 1.2,
       },
+    },
+  },
+  {
+    key: "tattoo.id",        // unique key for tattoos
+    text: "Tattoo",
+    selectionType: "svgs",   // because tattoos are SVGs
+    renderOptions: {
+      valuesToRender: Object.keys(svgsIndex.tattoo), // ["none", "stars", ...]
     },
   },
   {
@@ -332,11 +342,16 @@ const generateInitialFaceAndParseHash = () => {
           opener: window.opener,
         };
       }
-      initialFace = JSON.parse(atob(parts.at(-1)!));
+      initialFace = JSON.parse(atob(parts.at(-1)!)) as FaceConfig;
     } catch (error) {
       console.error(error);
       initialFace = generate();
     }
+  }
+  // Ensure tattoo property always exists
+  // For some reason, that didn't always happen in generate.ts generate()
+  if (!('tattoo' in initialFace)) {
+    (initialFace as FaceConfig).tattoo = { id: "none" };
   }
   return { fromParent, initialFace };
 };

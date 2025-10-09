@@ -162,13 +162,13 @@ const drawFeature = (
   }
 
   // @ts-expect-error
-  if (feature.shave) {
+  if (feature.shave && info.name != "tattoo") {
     // @ts-expect-error
     featureSVGString = featureSVGString.replace("$[faceShave]", feature.shave);
   }
 
   // @ts-expect-error
-  if (feature.shave) {
+  if (feature.shave && info.name != "tattoo") {
     // @ts-expect-error
     featureSVGString = featureSVGString.replace("$[headShave]", feature.shave);
   }
@@ -224,7 +224,7 @@ const drawFeature = (
     // Flip if feature.flip is specified or if this is the second position (for eyes and eyebrows). Scale if feature.size is specified.
     // @ts-expect-error
     const scale = feature.hasOwnProperty("size") ? feature.size : 1;
-    if (info.name === "body" || info.name === "jersey") {
+    if (info.name === "body" || info.name === "jersey" || info.name === "tattoo") {
       // @ts-expect-error
       scaleCentered(svg.lastChild, bodySize, 1);
       // @ts-expect-error
@@ -289,6 +289,11 @@ export const display = (
     },
     {
       name: "body",
+      positions: [null],
+    },
+    // Added tattoo. Should have same placement as jersey and body
+    {
+      name: "tattoo",
       positions: [null],
     },
     {

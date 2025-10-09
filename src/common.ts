@@ -22,6 +22,8 @@ export const features = [
   "mouth",
   "nose",
   "smileLine",
+  // added tattoo feature
+  "tattoo"
 ] as const;
 export type Feature = (typeof features)[number];
 
@@ -102,4 +104,8 @@ export type FaceConfig = {
   accessories: {
     id: string;
   };
+  // Added tattoo feature, id is the svg file to use
+  tattoo: {
+    id: string;
+  }
 };
