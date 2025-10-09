@@ -1,4 +1,8 @@
 #!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+#. "$(dirname -- "$0")/_/husky.sh"
 
-npx lint-staged
+#npx lint-staged
+
+npx prettier --write .
+
+NODE_OPTIONS="--max-old-space-size=4096" npx prettier --write .

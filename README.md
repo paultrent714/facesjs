@@ -192,6 +192,15 @@ If you want a brand new "class" of facial features (like facial hair, or earring
 
 If you find any of this confusing, feel free to reach out to me for help! I would love for someone to help me make better looking faces :)
 
+## My Additions
+I plan to use this for some other management games I plan to complete
+
+So far,  I have added a few svgs.
+I also plan on making another feature for tattoos that will be included in the face editor and json.
+
 ## Credits
 
 [dumbmatter](https://github.com/dumbmatter) wrote most of the code, [TravisJB89](https://github.com/TravisJB89) made most of the graphics, [Lia Cui](https://liacui.carrd.co/) made most of the female graphics, [gurushida](https://github.com/gurushida) wrote the code to export faces as SVG strings, and [tomkennedy22](https://github.com/tomkennedy22) wrote most of the editor UI code.
+
+
+
