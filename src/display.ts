@@ -21,10 +21,10 @@ const rotateCentered = (element: SVGGraphicsElement, angle: number) => {
 };
 
 const scaleStrokeWidthAndChildren = (
-  element: SVGGraphicsElement,
+  element: SVGGraphicsElement | Node,
   factor: number,
 ) => {
-  if (element.tagName === "style") {
+  if (!(element instanceof SVGElement) || element.tagName === "style") {
     return;
   }
 
@@ -35,7 +35,7 @@ const scaleStrokeWidthAndChildren = (
       String(parseFloat(strokeWidth) / factor),
     );
   }
-  const children = element.childNodes as unknown as SVGGraphicsElement[];
+  const children = element.childNodes;
   for (let i = 0; i < children.length; i++) {
     scaleStrokeWidthAndChildren(children[i], factor);
   }

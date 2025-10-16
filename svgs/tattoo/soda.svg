@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   viewBox="0 0 400 600"
+   width="400"
+   height="600"
+   id="svg1"
+   sodipodi:docname="soda.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.9533333"
+     inkscape:cx="164.59045"
+     inkscape:cy="484.30035"
+     inkscape:window-width="1440"
+     inkscape:window-height="830"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <title
+     id="title1">body3-svg</title>
+  <g
+     id="g1"
+     style="fill:#000000;fill-opacity:1"
+     transform="translate(-26.262996,-3.6310011)">
+    <ellipse
+       style="fill:#c30000;fill-opacity:1;stroke:#c30000;stroke-width:1.58244;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path1"
+       cx="-246.1964"
+       cy="631.79163"
+       rx="16.39802"
+       ry="15.50108"
+       transform="matrix(0.61489789,-0.78860674,0.80279307,0.59625773,0,0)" />
+    <ellipse
+       style="fill:#c30000;fill-opacity:1;stroke:#c30000;stroke-width:1.59494;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path1-8"
+       cx="350.34824"
+       cy="639.47626"
+       rx="15.308652"
+       ry="16.867462"
+       transform="matrix(0.97322176,-0.22986824,0.05345997,0.99856999,0,0)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#c30000;fill-opacity:1;stroke:#c30000;stroke-width:1.027;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path2-8"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="92.662117"
+       sodipodi:cy="418.2594"
+       sodipodi:r1="14.766764"
+       sodipodi:r2="10.581925"
+       sodipodi:arg1="-2.55359"
+       sodipodi:arg2="-1.5063925"
+       inkscape:rounded="0.03"
+       inkscape:randomized="0"
+       d="m 80.375427,410.06827 c 0.425624,-0.63843 25.183673,0.95829 25.523763,1.64611 0.34009,0.68782 -13.42174,21.33055 -14.187453,21.28117 -0.765712,-0.0494 -11.761933,-22.28884 -11.33631,-22.92728 z"
+       inkscape:transform-center-x="3.0376554"
+       inkscape:transform-center-y="0.82938217"
+       transform="matrix(1.6291627,-1.0873098,0.66319207,1.2702758,-55.82333,151.58498)" />
+    <text
+       xml:space="preserve"
+       style="font-size:32.8286px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:100.654;fill:#161616;fill-opacity:1;stroke:#23251d;stroke-width:1.027;stroke-linecap:square;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       x="35.32423"
+       y="550.85321"
+       id="text1"
+       transform="matrix(0.45694085,-0.30846841,0.40016502,0.6435503,113.50839,245.58953)"><tspan
+         x="35.32423"
+         y="550.85321"
+         id="tspan2">SODA</tspan></text>
+  </g>
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>body3-svg</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

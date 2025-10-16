@@ -197,7 +197,7 @@ If you find any of this confusing, feel free to reach out to me for help! I woul
 I plan to use this for some other management games I plan to complete
 
 So far, I have added a few svgs.
-I also plan on making another feature for tattoos that will be included in the face editor and json.
+I have also added some very basic shoulder tattoo functionality. They do not work for every body shape and size yet
 
 ## Credits
 

@@ -359,5 +359,10 @@ export const genders = {
   tattoo: {
     none: "both",
     stars: "both",
+    sLeft: "both",
+    soda: "both",
+    sRight: "both",
+    tattoo1: "both",
+    xxxx: "both",
   }
 };

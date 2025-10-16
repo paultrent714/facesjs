@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   viewBox="0 0 400 600"
+   width="400"
+   height="600"
+   id="svg1"
+   sodipodi:docname="xxxx.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1">
+    <rect
+       x="21.501706"
+       y="570.30717"
+       width="175.27299"
+       height="63.015186"
+       id="rect2" />
+    <rect
+       x="21.501705"
+       y="570.30719"
+       width="175.27299"
+       height="63.015186"
+       id="rect2-1" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.9533333"
+     inkscape:cx="201.70648"
+     inkscape:cy="468.94198"
+     inkscape:window-width="1440"
+     inkscape:window-height="830"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <title
+     id="title1">body3-svg</title>
+  <text
+     xml:space="preserve"
+     id="text2"
+     style="font-size:32.8286px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);shape-padding:1.66048;fill:#22241c;fill-opacity:1;stroke:#22241c;stroke-width:1.027;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;paint-order:stroke markers fill"
+     transform="matrix(0.74882313,0.16806443,-0.18127408,0.80767966,107.66149,77.683941)"><tspan
+       x="23.162109"
+       y="602.83203"
+       id="tspan3">XXXX</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text2-3"
+     style="font-size:32.8286px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2-1);shape-padding:1.66048;fill:#22241c;fill-opacity:1;stroke:#22241c;stroke-width:1.027;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;paint-order:stroke markers fill"
+     transform="matrix(-0.74882313,0.16806443,0.18127408,0.80767966,292.30763,77.683941)"><tspan
+       x="23.162109"
+       y="602.83203"
+       id="tspan4">XXXX</tspan></text>
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>body3-svg</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
