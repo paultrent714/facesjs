@@ -35,8 +35,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.9533333"
-     inkscape:cx="188.90785"
-     inkscape:cy="481.22867"
+     inkscape:cx="188.65188"
+     inkscape:cy="481.22868"
      inkscape:window-width="1440"
      inkscape:window-height="830"
      inkscape:window-x="-6"
@@ -72,7 +72,7 @@
      transform="matrix(4.1107473,-1.727584,1.2817092,3.1461335,-563.10171,-1112.5618)"><tspan
        x="44.027306"
        y="564.16382"
-       id="tspan2">S</tspan></text>
+       id="tspan1">S</tspan></text>
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -82,4 +82,13 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <rect
+     style="fill:none;stroke:none;stroke-width:1.027;stroke-linecap:square;stroke-linejoin:bevel;paint-order:stroke markers fill"
+     id="rect1"
+     width="17.406143"
+     height="9.2150173"
+     x="35"
+     y="562"
+     ry="2.5597014"
+     inkscape:label="transparentObjectOnlyForScalingInFacesJS" />
 </svg>

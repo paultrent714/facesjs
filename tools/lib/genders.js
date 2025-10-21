@@ -296,7 +296,7 @@ export const genders = {
     jersey3: "both",
     jersey4: "both",
     jersey5: "both",
-    none: "male"
+    none: "male",
   },
   miscLine: {
     blush: "female",
@@ -364,5 +364,5 @@ export const genders = {
     sRight: "both",
     tattoo1: "both",
     xxxx: "both",
-  }
+  },
 };

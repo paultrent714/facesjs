@@ -39,7 +39,7 @@
   <g
      id="g1"
      style="fill:#000000;fill-opacity:1"
-     transform="translate(-26.262996,-3.6310011)">
+     transform="matrix(0.90326698,0,0,0.92067598,16.537951,44.1949)">
     <ellipse
        style="fill:#c30000;fill-opacity:1;stroke:#c30000;stroke-width:1.58244;stroke-linecap:square;stroke-linejoin:bevel;stroke-opacity:1;paint-order:stroke markers fill"
        id="path1"
@@ -76,7 +76,7 @@
        transform="matrix(1.6291627,-1.0873098,0.66319207,1.2702758,-55.82333,151.58498)" />
     <text
        xml:space="preserve"
-       style="font-size:32.8286px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:100.654;fill:#161616;fill-opacity:1;stroke:#23251d;stroke-width:1.027;stroke-linecap:square;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       style="font-size:32.8286px;font-family:'Berlin Sans FB';-inkscape-font-specification:'Berlin Sans FB, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;white-space:pre;inline-size:100.654;display:inline;fill:#161616;fill-opacity:1;stroke:#23251d;stroke-width:1.027;stroke-linecap:square;stroke-linejoin:bevel;paint-order:stroke markers fill"
        x="35.32423"
        y="550.85321"
        id="text1"
@@ -94,4 +94,13 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <rect
+     style="fill:none;stroke:none;stroke-width:1.027;stroke-linecap:square;stroke-linejoin:bevel;paint-order:stroke markers fill"
+     id="rect1"
+     width="17.406143"
+     height="9.2150173"
+     x="35.836178"
+     y="560.5802"
+     ry="2.5597014"
+     inkscape:label="transparentObjectOnlyForScalingInFacesJS" />
 </svg>

@@ -131,7 +131,7 @@ export const generate = (
         color: skinColor,
         size: getRandUniform("body.size", gender),
       },
-      tattoo:{
+      tattoo: {
         id: "none",
       },
       jersey: {

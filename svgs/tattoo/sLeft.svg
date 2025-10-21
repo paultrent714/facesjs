@@ -33,7 +33,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.9533333"
      inkscape:cx="173.29352"
-     inkscape:cy="460.23891"
+     inkscape:cy="460.23892"
      inkscape:window-width="1440"
      inkscape:window-height="830"
      inkscape:window-x="-6"
@@ -70,6 +70,14 @@
          transform="matrix(4.1349628,1.6687938,-1.3059414,3.1361524,586.75448,-1265.5906)"><tspan
            x="44.027306"
            y="564.16382"
-           id="tspan2">S</tspan></text></g></g><metadata
+           id="tspan1">S</tspan></text></g><rect
+       style="fill:none;stroke:none;stroke-width:1.027;stroke-linecap:square;stroke-linejoin:bevel;paint-order:stroke markers fill"
+       id="rect1"
+       width="17.406143"
+       height="9.2150173"
+       x="348"
+       y="567"
+       ry="2.5597014"
+       inkscape:label="transparentObjectOnlyForScalingInFacesJS" /></g><metadata
      id="metadata2"><rdf:RDF><cc:Work
          rdf:about=""><dc:title>body3-svg</dc:title></cc:Work></rdf:RDF></metadata></svg>

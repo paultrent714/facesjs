@@ -45,12 +45,12 @@ const gallerySectionInfos: (Pick<
         };
       }
     | {
-    selectionType: "svgs";
-    flip?: { key: string };
-    renderOptions?: {
-      valuesToRender: string[];
-    };
-  }
+        selectionType: "svgs";
+        flip?: { key: string };
+        renderOptions?: {
+          valuesToRender: string[];
+        };
+      }
   ))[] = [
   {
     key: "body.color",
@@ -74,9 +74,9 @@ const gallerySectionInfos: (Pick<
     },
   },
   {
-    key: "tattoo.id",        // unique key for tattoos
+    key: "tattoo.id", // unique key for tattoos
     text: "Tattoo",
-    selectionType: "svgs",   // because tattoos are SVGs
+    selectionType: "svgs", // because tattoos are SVGs
     renderOptions: {
       valuesToRender: Object.keys(svgsIndex.tattoo), // ["none", "stars", ...]
     },
@@ -350,7 +350,7 @@ const generateInitialFaceAndParseHash = () => {
   }
   // Ensure tattoo property always exists
   // For some reason, that didn't always happen in generate.ts generate()
-  if (!('tattoo' in initialFace)) {
+  if (!("tattoo" in initialFace)) {
     (initialFace as FaceConfig).tattoo = { id: "none" };
   }
   return { fromParent, initialFace };

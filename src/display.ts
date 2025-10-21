@@ -161,6 +161,26 @@ const drawFeature = (
     return;
   }
 
+  // If this is a tattoo, wrap it in a clip path using the body shape
+  if (info.name === "tattoo") {
+    const bodyId = face.body.id;
+    // @ts-expect-error
+    const bodySVG = svgs.body[bodyId];
+    if (bodySVG) {
+      const clipPathId = `clip-${bodyId}-${Math.random().toString(36).substr(2, 9)}`;
+      featureSVGString = `
+        <defs>
+          <clipPath id="${clipPathId}">
+            ${bodySVG}
+          </clipPath>
+        </defs>
+        <g clip-path="url(#${clipPathId})">
+          ${featureSVGString}
+        </g>
+      `;
+    }
+  }
+
   // @ts-expect-error
   if (feature.shave && info.name != "tattoo") {
     // @ts-expect-error
